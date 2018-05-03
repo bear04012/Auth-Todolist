@@ -1,0 +1,20 @@
+1. method
+
+GET - read only access
+PUT - create
+DELETE - remove
+POST - update
+
+// client -  req.open("GET", url, true);
+// server -  routes.get("/") router.post("/") route.delete("/") route.put("/")
+
+
+2. examples
+
+GET /comments
+GET /comments/1
+PUT /comments/1
+POST /comments/1
+DELETE /comments/1
+
+"rest-api server"
